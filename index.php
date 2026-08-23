@@ -25,7 +25,8 @@
         <h2>Gestiona tu servicio social estudiantil</h2>
         <p>
             ConectaEscuela permite llevar un mejor control
-            del servicio social estudiantil obligatorio.
+            del servicio social estudiantil obligatorio
+            para las instituciones educativas y sus integrantes.
         </p>
         <a href="auth/login.php" class="btn-primary">Comenzar</a>
     </section>
