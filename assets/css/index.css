@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f6f8;
+    font-family: arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    max-width: 800px;
+}
+
+.hero p {
+    max-width: 650px;
+    font-size: 18px;
+    line-height: 1.6;
+
+    color: #555555;
+}
+
+/* Botón del login */
+.btn-login {
+    background-color: #2563eb;
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #1d4ed8;
+}
+
+/* Botón de registrarse */
+.btn-register {
+    background-color: #222222;
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #444444;
+}
+
+/* Botón principal del main */
+.btn-primary {
+    display: inline-block;
+
+    background-color: #2563eb;
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+footer {
+    background-color: white;
+    border-top: 1px solid #dddddd;
+
+    text-align: center;
+
+    padding: 20px;
+
+    color: #666666;
+}
+
+/* Diseño responsive */
+@media (max-width:768px) {
+    nav {
+        padding: 26px;
+    }
+
+    nav h1 {
+        font-size: 20px;
+    }
+
+    .nav-actions {
+        gap: 8px;
+    }
+
+    .btn-login,
+    .btn-register {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
